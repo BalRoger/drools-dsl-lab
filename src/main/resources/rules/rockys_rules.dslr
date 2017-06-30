@@ -11,14 +11,3 @@ rule "Rocky Balboa Says"
     then
         Say "Yo, Adrian!"
 end 
-
-rule "Person means Tucson"
-   when
-       When there is a person living in a place with name that sounds like "Two Sun"
-   then
-       Say "You probably meant Tucson" 
-end
-
-query "Get all Messages" 
-    get All Messages
-end 
